@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu-container {
+    margin-bottom: 20px;
+}
+
+
+
+.logo {
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-family: 400;
+}
+
+.menu .navbar ul li a {
+    color: #FFFDFC;
+    text-transform: uppercase;
+
+}
+
+.menu .navbar ul li a:hover {
+    color: blueviolet;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.mapa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(images/campus.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.header {
+
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.mapa-content {
+    text-align: center;
+}
+
+
+
+.mapa-content h2 {
+    font-size: 40px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.mapa-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.mapa-content a .btn-1 {
+    text-transform: uppercase;
+}
+
+.mapa-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 500px;
+}
+
+.harry {
+    padding: 0 100px;
+}
+
+.harry img {
+    width: 150 px;
+    margin-bottom: 150 px;
+}
+
+.harry h3 {
+    color: #EACCB3;
+    font-size: 18px;
+}
+
+.dombuldor {
+    padding: 0 100px;
+}
+
+.dombuldor img {
+    width: 250px;
+    margin-bottom: 150px;
+}
+
+.dombuldor h3 {
+    color: #EACCB3;
+    font-size: 18px;
+}
+
+
+
+.lema {
+    font-size: 40px;
+    color: #FFFDFC;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.mapas ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-family: 400;
+}
+
+.mapas ul li a {
+    color: #FFFDFC;
+    text-transform: uppercase;
+
+}
+
+.mapas ul li a:hover {
+    color: blueviolet;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.campus {
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.campus-content {
+    text-align: center;
+}
+
+.campus-content h2 {
+    font-size: 40px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.campus-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.gryffindor {
+    padding: 0 25px;
+}
+
+.gryffindor img {
+    width: 200px;
+}
+
+.gryffindor h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.ravenclaw {
+    padding: 0 25px;
+}
+
+.ravenclaw img {
+    width: 200px;
+}
+
+.ravenclaw h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.slytherin {
+    padding: 0 25px;
+}
+
+.slytherin img {
+    width: 200px;
+}
+
+.slytherin h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.hufflepuff {
+    padding: 0 25px;
+}
+
+.hufflepuff img {
+    width: 200px;
+}
+
+.hufflepuff h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+    background-position: center;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.link h3 {
+    font-size: 50px;
+    color: #E1E2E6;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.link a {
+    font-size: 25px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media(max-width:991px) {
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #323337;
+        display: none;
+
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .campus {
+        padding: 30px;
+    }
+
+    .campus-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .campus-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .campus img {
+        display: none;
+    }
+
+    .mapa {
+        padding: 30px;
+    }
+
+    .mapa-content p {
+        padding: 0;
+    }
+
+    .mapa-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .harry {
+        margin-bottom: 25px;
+    }
+
+    .dombuldor {
+        margin-bottom: 25px;
+    }
+
+
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+}
